@@ -1,6 +1,6 @@
 #ifndef HAS_H_INCLUDED
 #define HAS_H_INCLUDED
-#include "te.h"
+#include "arvore_RB.h"
 
 typedef struct hash{
     Arv **tabela;
