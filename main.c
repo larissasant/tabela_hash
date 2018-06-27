@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include "hash.h"
-#include "has.h"
+#include <stdlib.h>
 #include <math.h>
 #include <time.h>
-#include <stdlib.h>
-
+#include "arvore_RB.h"
+#include "has.h"
 
 int main() {
     int tam;
