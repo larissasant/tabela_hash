@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "hash.h"
 #include "has.h"
 #include "te.h"
 
@@ -61,7 +60,7 @@ void imprimir_EmOrdem_has(hash_n* has){
 
 void imprimir_PosOrdem_has(hash_n* has){
     for (int i =0; i< has->size; i++){
-        printf("Posiçao %d\n",i);
+        printf("PosiÃ§ao %d\n",i);
         imprimir(has->tabela[i],3);
         printf("\n");
     }
