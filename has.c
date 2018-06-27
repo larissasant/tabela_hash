@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "has.h"
-#include "te.h"
+#include "arvore_RB.h"
 
 hash_n* criar_has(int valor){
     hash_n* novo = (hash_n *)malloc(sizeof(hash_n));
